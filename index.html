@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>&#9994;&#9995;&#9996; Rock Paper Scissors Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="game-box">
+<h1>&#9994; &#9995; &#9996; Rock Paper Scissors</h1>
+<div class="score">
+&#128100; You: <span id="userScore">0</span>  
+&nbsp; &#128187; Computer: <span id="computerScore">0</span>
+</div>
+<div class="buttons">
+<button onclick="playGame('rock')">&#9994;</button>
+<button onclick="playGame('paper')">&#9995;</button>
+<button onclick="playGame('scissors')">&#9996;</button>
+</div>
+<div class="result" id="result">Make your move!</div>
+<button class="reset" onclick="resetGame()">&#128260; Reset Game</button>
+</div>
+<div class="history-box">
+<h2>&#128220; Game History</h2>
+<ul id="historyList"></ul>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
